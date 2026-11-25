@@ -63,6 +63,7 @@ class MainActivity : Activity() {
         root.addView(label("AUTO PLAY chưa được bật trong bản phát triển này. Chỉ cấp quyền khi bạn chủ động sử dụng ứng dụng.", 13f))
         setContentView(root)
         refreshStatus()
+        requestNotificationPermission()
     }
 
     override fun onResume() { super.onResume(); if (::status.isInitialized) refreshStatus() }
