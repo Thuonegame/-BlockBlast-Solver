@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Block Blast Solver</string>
+    <string name="accessibility_description">Cho phép Block Blast Solver thực hiện thao tác kéo thả khi bạn bật tự động chơi.</string>
+</resources>
